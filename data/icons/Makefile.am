@@ -40,6 +40,7 @@ EXTRA_DIST = \
 	$(icon48_DATA)  	\
 	$(icon256_DATA)  	\
 	$(iconscalable_DATA)  	\
-	devhelp.svg
+	devhelp.svg		\
+	meson.build
 
 -include $(top_srcdir)/git.mk

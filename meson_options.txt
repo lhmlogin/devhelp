@@ -1,0 +1,2 @@
+option('enable-gtk-doc', type: 'boolean', value: false, description: 'use gtk-doc to build documentation')
+option('enable-introspection', type: 'boolean', value: true, description: 'Enable GObject Introspection (depends on GObject)')

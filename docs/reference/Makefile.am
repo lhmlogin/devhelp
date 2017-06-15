@@ -1,3 +1,4 @@
+EXTRA_DIST = meson.build
 
 # The name of the module, e.g. 'glib'.
 DOC_MODULE = devhelp

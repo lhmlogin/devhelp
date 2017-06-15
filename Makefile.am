@@ -5,7 +5,12 @@ AM_DISTCHECK_CONFIGURE_FLAGS =	\
 	--enable-introspection	\
 	--enable-appstream-util
 
-EXTRA_DIST = devhelp.doap
+EXTRA_DIST = \
+	devhelp.doap \
+	meson.build \
+	meson_options.txt \
+	meson_post_install.py \
+	po/meson.build
 
 MAINTAINERCLEANFILES = \
 	$(GITIGNORE_MAINTAINERCLEANFILES_TOPLEVEL) \

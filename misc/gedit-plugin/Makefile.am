@@ -9,6 +9,8 @@ plugin_PYTHON = devhelp.py
 plugin_DATA = $(PLUGIN_FILE)
 
 CLEANFILES = $(PLUGIN_FILE)
-EXTRA_DIST = $(DESKTOP_IN_FILES)
+EXTRA_DIST =			\
+	$(DESKTOP_IN_FILES)	\
+	meson.build
 
 -include $(top_srcdir)/git.mk

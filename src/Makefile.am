@@ -182,6 +182,8 @@ EXTRA_DIST =				\
 	dh-enum-types-app.c.template	\
 	dh-enum-types-app.h.template	\
 	dh.gresource.xml		\
+	meson.build			\
+	devhelp.map			\
 	$(resource_files)		\
 	$(NULL)
 

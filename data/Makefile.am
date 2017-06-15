@@ -40,6 +40,7 @@ org.gnome.Devhelp.service: Makefile
 man_MANS = devhelp.1
 
 EXTRA_DIST =			\
+	meson.build		\
 	libdevhelp-3.0.pc.in    \
 	$(desktop_in_files)	\
 	$(gsettings_SCHEMAS)    \
